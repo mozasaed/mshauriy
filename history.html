@@ -1,0 +1,334 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+
+    <title>About Mshauri </title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Tangerine|inconsolata|Droid+Sans|Cantarell">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/fontawesome-all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <style>
+        .hero_caption {
+            background-image: url('images/pic2.jpg');
+            background-size: cover;
+        }
+        
+        #navigation a {
+            font-size: large;
+            font-family: 'Cantarell';
+            font-weight: bolder;
+        }
+        
+        #navigation a:hover {
+            text-decoration: none;
+            color: #1a8d4e;
+        }
+        
+        .hero-btn {
+            background-color: #1a8d4e;
+            width: 60%;
+            height: 60px;
+            padding: 10px 20px;
+            margin: 10px 10px;
+            ;
+            border: 55;
+            color: #fff;
+            cursor: pointer;
+            font-size: 16px;
+            border-radius: 60px;
+            font-size: large;
+        }
+        
+        .hero_btn .hero-btn a:hover {
+            border: 5px solid green;
+            border-color: #1a8d4e;
+            background: white;
+        }
+        
+        h4 {
+            color: #fff;
+        }
+        
+        .modal-content {
+            width: 1300px;
+            margin-left: -400px;
+        }
+        
+        .comment-link {
+            font-size: 20px;
+            font-weight: bold;
+            font-family: 'inconsolata';
+            color: #1a8d4e;
+            margin-left: 50px;
+        }
+        
+        @media (max-width: 575px) {
+            .comment-control {
+                width: 350px;
+                margin-left: -70px;
+                margin-top: 50px;
+            }
+        }
+        
+        @media (max-width: 575px) {
+            form .comment-btn {
+                width: 120px;
+            }
+        }
+        
+        @media (max-width: 575px) {
+            form {
+                margin-left: 120px;
+                margin-top: -50px;
+            }
+        }
+        
+        @media (max-width: 575px) {
+            .logo img {
+                width: 90px;
+                height: 60px;
+            }
+        }
+        
+        @media (max-width: 575px) {
+            .modal-content {
+                width: auto;
+            }
+        }
+    </style>
+
+</head>
+
+<body class="body-bg">
+
+    <div id="preloader-active">
+        <div class="preloader d-flex align-items-center justify-content-center">
+            <div class="preloader-inner position-relative">
+                <div class="preloader-circle"></div>
+                <div class="preloader-img pere-text">
+                    <img src="images/logo.jpg" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+    <header>
+
+        <div class="header-area">
+            <div class="main-header ">
+                <div class="header-top d-lg-block">
+                    <div class="container">
+                        <div class="col-xl-12">
+                            <div class="row d-flex justify-content-between align-items-center">
+                                <div class="header-info-left">
+                                    <ul>
+                                        <li><i class="far fa-clock"></i> Mon - SAT: 8.00 am - 5.00 pm</li>
+                                        <li>Sun: Closed</li>
+                                    </ul>
+                                </div>
+                                <div>
+                                    <a href="www.facebook.com"><i class="fab fa-facebook-f ml-5"></i></a>
+                                    <a href="www.twitter.com"><i class="fab fa-twitter ml-5"></i></a>
+                                    <a href="www.linkedin.com"><i class="fab fa-linkedin-in ml-5"></i></a>
+                                    <a href="www.instagram.com"><i class="fab fa-instagram ml-5"></i></a>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="header-bottom white-bg">
+                    <div class="container-fluid">
+                        <div class="row align-items-center">
+
+                            <div class="col-xl-2 col-lg-2">
+                                <div class="logo">
+                                    <a href="index.html"><img src="images/logo.jpg" height="80px" width="165px"></a>
+                                </div>
+                            </div>
+                            <p style="margin-left:500px; color:darkolivegreen; font-weight:bold " class="mr-100">Contact us: +255 776310512 | rayaahmada@gmail.com</p>
+                            <form>
+                                <div class="input-group">
+                                    <input type="text" id="search_text" class="form-control" name="search" placeholder="Type something...">
+                                    <input type="submit" class="btn btn-default" value="Search" id="search_submit">
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="header-bottom header-sticky gray-bg" style="height: 85px;">
+                    <div class="container-fluid">
+
+                        <div class="row align-items-center">
+                            <div class="col-xl-10 col-lg-10">
+                                <div class="menu-wrapper align-items-center">
+                                    <div class="main-menu d-none d-lg-block">
+                                        <nav style="text-align: center;">
+
+                                            <ul id="navigation">
+                                                <li class="mr-40"><a href="index.html" style="color:blue">Home</a></li>
+                                                <li class="nav-item dropdown mr-40"><a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">About</a>
+                                                    <div class="dropdown-menu">
+                                                        <a href="about.html" class="dropdown-item" style="margin-top: -40px;">About us</a>
+                                                        <a href="vision.html" class="dropdown-item" style="margin-top: -60px;">Vision</a>
+                                                        <a href="mission.html" class="dropdown-item" style="margin-top: -60px;">Mission</a>
+                                                        <a href="team.html" class="dropdown-item" style="margin-top:-60px;">Purpose</a>
+                                                        <a href="vision.html" class="dropdown-item" style="margin-top: -60px;">Team Structure</a>
+                                                        <a href="history.html" class="dropdown-item" style="margin-top: -60px;">History</a>
+                                                    </div>
+                                                </li>
+                                                <li class="mr-40"><a href="news.html">News</a></li>
+                                                <li class="nav-item dropdown mr-40"><a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Programmes</a>
+                                                    <div class="dropdown-menu">
+                                                        <a href="science.html" class="dropdown-item" style="margin-top:-40px;">Science</a>
+                                                        <a href="technology.html" class="dropdown-item" style="margin-top:-60px;">Technology</a>
+                                                        <a href="engineering.html" class="dropdown-item" style="margin-top: -60px;">Engineering</a>
+                                                        <a href="math.html" class="dropdown-item" style="margin-top: -60px;">Mathematics</a>
+                                                    </div>
+                                                </li>
+                                                <li class="mr-40"><a href="#">Our Approaches</a></li>
+                                                <li class="mr-40"><a href="#">Projects</a></li>
+                                                <li class="mr-40"><a href="involve.html">Get involved</a></li>
+                                            </ul>
+
+                                        </nav>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-12">
+                                <div class="mobile_menu d-block d-lg-none"></div>
+                            </div>
+                        </div>
+                    </div>
+
+
+    </header>
+
+    <main>
+        <div class="slider-area ">
+            <div class="d-flex align-items-center">
+                <div class="container-fluid" style="background-image:url('images/pic2.jpg'); background-size: cover;">
+                    <div class="row">
+                        <div class="col-xl-6 col-lg-5 col-md-8 mt-90 mb-90 ml-100">
+
+                            <div class="hero__caption">
+                                <h1>History</h1>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="container mt-90 mb-90 white-bg">
+                <div class="row mb-10">
+                    <div class="col-lg-10">
+                        <h2 style="font-family:'Tangerine'; font-weight:900px;">Mshauri Stem Initiative</h2>
+                        <p>Mshauri Stem Institute(MSI) is a new created organization that deals with consultancy especially to girls and women to focus and develop in STEM so as to improve rate of level of educated women with Zanzibar and Africa in general
+                            activists. Our target beneficiaries and constituency are primarily girls and women.
+                        </p>
+                        <hr>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <footer class="black-bg" style="height: 50px;">
+            <p style="color: white; text-align:center">mshauri:Copy right &copy; 2020</p>
+        </footer>
+        <!-- Scroll Up -->
+        <div id="back-top">
+            <a title="Go to Top" href="#"> <i class="fas fa-level-up-alt"></i></a>
+        </div>
+
+        <!-- JS here -->
+
+        <script src="./js/vendor/modernizr-3.5.0.min.js"></script>
+        <!-- Jquery, Popper, Bootstrap -->
+        <script src="./js/vendor/jquery-1.12.4.min.js"></script>
+        <script src="./js/popper.min.js"></script>
+        <script src="./js/bootstrap.min.js"></script>
+        <!-- Jquery Mobile Menu -->
+        <script src="./js/jquery.slicknav.min.js"></script>
+
+        <!-- Jquery Slick , Owl-Carousel Plugins -->
+        <script src="./js/owl.carousel.min.js"></script>
+        <script src="./js/slick.min.js"></script>
+        <!-- One Page, Animated-HeadLin -->
+        <script src="./js/wow.min.js"></script>
+        <script src="./js/animated.headline.js"></script>
+        <script src="./js/jquery.magnific-popup.js"></script>
+
+        <!-- Nice-select, sticky -->
+        <script src="./js/jquery.nice-select.min.js"></script>
+        <script src="./js/jquery.sticky.js"></script>
+
+        <!-- counter , waypoint -->
+        <script src="http://cdnjs.cloudflare.com/ajax/libs/waypoints/2.0.3/waypoints.min.js"></script>
+        <script src="./js/jquery.counterup.min.js"></script>
+
+        <!-- contact js -->
+        <script src="./js/contact.js"></script>
+        <script src="./js/jquery.form.js"></script>
+        <script src="./js/jquery.validate.min.js"></script>
+        <script src="./js/mail-script.js"></script>
+        <script src="./js/jquery.ajaxchimp.min.js"></script>
+
+        <!-- Jquery Plugins, main Jquery -->
+        <script src="./js/plugins.js"></script>
+        <script src="./js/main.js"></script>
+
+        <script>
+            jQuery("#search_submit").on("click", function() {
+                //var search_str = jQuery("#search_text").val();console.log(search_str);
+                findString('');
+                return false;
+            });
+
+            var TRange = null;
+
+            function findString(str) {
+                var search = document.getElementById("search_text").value;
+                str = search;
+                if (parseInt(navigator.appVersion) < 4) return;
+                var strFound;
+                if (window.find) {
+
+                    // CODE FOR BROWSERS THAT SUPPORT window.find
+
+                    var original_content = window;
+                    strFound = original_content.find(str);
+                    if (!strFound) {
+                        strFound = original_content.find(str, 0, 1);
+                        while (original_content.find(str, 0, 1)) continue;
+                    }
+                } else if (navigator.appName.indexOf("Microsoft") != -1) {
+
+                    // EXPLORER-SPECIFIC CODE
+
+                    if (TRange != null) {
+                        TRange.collapse(false);
+                        strFound = TRange.findText(str);
+                        if (strFound) TRange.select();
+                    }
+                    if (TRange == null || strFound == 0) {
+                        TRange = self.document.body.createTextRange();
+                        strFound = TRange.findText(str);
+                        if (strFound) TRange.select();
+                    }
+                } else if (navigator.appName == "Opera") {
+                    alert("Opera browsers not supported, sorry...")
+                    return;
+                }
+                if (!strFound) alert("String '" + str + "' not found!")
+                return;
+            }
+        </script>
+
+</body>
+
+</html>
